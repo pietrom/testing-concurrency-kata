@@ -6,7 +6,7 @@ public class Counter {
 		count = initialValue;
 	}
 	
-	public void increment() {
+	public synchronized void increment() {
 		count++;
 	}
 
